@@ -7,7 +7,7 @@ def custom_write(file_name, *strings):
             a += 1
             file.write(f"{i}\n")
             kr = (a, file.tell())
-            print(f"номер строки и байт начала строки {kr}, строка {i}")
+            print({kr:i})
 
 
 
